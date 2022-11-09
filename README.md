@@ -1,3 +1,3 @@
 - 👋 Hi, I’m @10626568
 - 👀 I’m interested in Cybersecurity.
-- 🌱 I’m currently learning masters in Cybersecurity
+- 🤖 I’m currently learning masters in Cybersecurity
