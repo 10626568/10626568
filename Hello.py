@@ -1,7 +1,13 @@
-from flask import Flask
+from flask import Flask,render_template
 app = Flask(__name__)
-@app.route("/")#URL leading to method
-def hello(): # Name of the method
- return("Hello World!") #indent this line
+
+
+@app.route("/")  # URL leading to method
+def hello():  # Name of the method
+    return render_template('index.html')  # indent this line
+
+
+
 if __name__ == "__main__":
- app.run(host='0.0.0.0', port='8080') # indent this line
+    print("index.html")
+    app.run(host='0.0.0.0', port='8080') # indent this line
