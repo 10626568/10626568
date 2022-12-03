@@ -7,10 +7,9 @@
 </head>
 <body>
 <form action="/submission" method='POST' enctype="multipart/form-data">
-	{{ form.csrf_token }}
 	<label for="fname"> First Name: </label>
 	<input type="text" id="fname" name="fname"><br>
-	{{ form.image }}
+	<input type="file" name="photo">
 	<input type="submit" value="Submit">
 </form>
 </body>
